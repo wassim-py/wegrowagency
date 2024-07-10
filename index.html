@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>We Grow</title>
+  <meta name="title" content="We Grow">
+  <meta name="description" content="">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-light.png" width="120" height="24" alt="We Grow" class="logo-light">
+
+        <img src="./assets/images/logo-dark.png" width="120" height="24" alt="We Grow" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.png" width="74" height="24" alt="We Grow">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#pricing" class="navbar-link">Pricing</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:wegrowgency@gmail.com" class="contact-link">wegrowgency@gmail.com</a>
+
+          <a href="tel:213791591593" class="contact-link">+213791591593</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#pricing" class="btn btn-primary">Start Now!</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section id="home" class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.svg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Grow your Business by Advertising with Experts.</h1>
+
+            <p class="hero-text">
+              We are a creative agency that focuses on establishing long-term relationships with customers to ensure business growth.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#about" class="btn btn-primary">Explore Now</a>
+
+              <a href="#contact" class="btn btn-outline">Contact Us</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/hero-slide-2.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section id="about" class="section service" aria-labelledby="service-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">What We Do?</p>
+
+          <h2 class="h2 section-title">
+            Enhance client confidence in your business.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="people" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Social Media Management</h3>
+
+                <p class="card-text">
+                  Manage your social media presence with our expert team, ensuring consistent, engaging content and active community interaction.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="images" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Content Creation and Marketing</h3>
+
+                <p class="card-text">
+                  Craft compelling content—posts, graphics, videos—that captures your brand’s voice and drives audience engagement effectively.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="caret-up-circle" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Advertising and Campaigns</h3>
+
+                <p class="card-text">
+                  Design and manage targeted ad campaigns, maximizing reach and ROI by connecting with the right audience at the right time
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="code" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Web Development and Design</h3>
+
+                <p class="card-text">
+                  Build a responsive, user-friendly website that enhances your brand’s online presence and engages visitors.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+
+            <h2 class="h2 section-title">
+              We create solutions to make selling easier for our clients.
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Expertise and Experience</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Our seasoned professionals bring years of experience and stay updated with the latest trends to deliver top-notch solutions.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Customized Solutions</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    We tailor our services to your unique business needs, creating personalized strategies that align with your brand and goals.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Results-Driven Approach</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Focused on measurable results, we use data-driven strategies to optimize your social media presence and achieve your business objectives.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+
+            <h2 class="h2 section-title">
+              We make your online presence stress-free for your business.
+            </h2>
+
+            <p class="section-text">
+              Our goal is to provide seamless solutions that enhance your visibility, engagement, and overall digital effectiveness, ensuring that your business stands out and succeeds in the digital landscape.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    24/7 Support
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Perfect work
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Stress-free investment
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Guaranteed satisfaction
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #PRICING
+      -->
+
+      <section id="pricing" class="section project" aria-labelledby="project-label">
+        <p class="section-subtitle">Our Pricing</p>
+
+        <!--
+        cards
+        -->
+
+        <div class="cards">
+          <div class="card shadow">
+            <ul class="cards-ul">
+              <li class="pack">Basic</li>
+              <li id="basic" class="price bottom-bar">36,000 DZD</li>
+              <li class="bottom-bar">Accounts Setup and Optimization</li>
+              <li class="bottom-bar">Content Creation (12 / Month)</li>
+              <li class="bottom-bar">Community Management</li>
+              <li class="bottom-bar">Ad Management (2 / Month)</li>
+              <a href="#contact"><button class="btn-card">Learn More</button></a>
+            </ul>
+          </div>
+          <div class="card active">
+            <ul class="cards-ul">
+              <li class="pack">Profesional</li>
+              <li id="profesional" class="price bottom-bar">52,000 DZD</li>
+              <li class="bottom-bar">Accounts Setup and Optimization</li>
+              <li class="bottom-bar">Content Creation (20 / Month)</li>
+              <li class="bottom-bar">Community Management</li>
+              <li class="bottom-bar">Ad Management (5 / Month)</li>
+              <li class="bottom-bar">Marketing Strategies</li>
+              <a href="#contact"><button class="btn-card">Learn More</button></a>
+            </ul>
+          </div>
+          <div class="card shadow">
+            <ul class="cards-ul">
+              <li class="pack">Entreprise</li>
+              <li id="entreprise" class="price bottom-bar">84,000 DZD</li>
+              <li class="bottom-bar">Accounts Setup and Optimization</li>
+              <li class="bottom-bar">Content Creation (35 / Month)</li>
+              <li class="bottom-bar">Community Management</li>
+              <li class="bottom-bar">Ad Management (10 / Month)</li>
+              <li class="bottom-bar">Website Development</li>
+              <li class="bottom-bar">Profesional Filmmaking and Shooting</li>
+              <li class="bottom-bar">Advanced Marketing Strategies</li>
+              <a href="#contact"><button class="btn-card">Learn More</button></a>
+            </ul>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section id="contact" class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Transform your digital presence today and unlock new opportunities with us. Contact us now!
+          </h2>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo-light.png" width="150" height="24" alt="We Grow">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2024 We Grow Agency. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch:</p>
+        </li>
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <a href="mailto:wegrowgency@gmail.com" class="h4 footer-list-title">wegrowgency@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <a href="tel:213791591593" class="h4 footer-list-title">+213 791591593</a>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
